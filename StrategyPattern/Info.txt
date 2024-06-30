@@ -1,0 +1,11 @@
+﻿Extract what varies now and in future. Implement them as seperate algorithms. Program via Interface over Implementation. Always avoid Implementation directly. 
+Uses Interface Implementation approach. is what principle for Encapsulation.
+
+InShort:
+Implement Different Strategies via Same Inteface. Have common Interface for all Strategies. Implement them seperately. Have a context class in which we write a code for setting the strategy 
+and calling the strategy from the Interface Property(Composition). Form the main or client class, we can set the strategy and call the strategy via context class.
+
+
+In This project has implemented various search strategies!
+
+

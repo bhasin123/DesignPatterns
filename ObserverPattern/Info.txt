@@ -1,0 +1,10 @@
+﻿
+Its a Publisher Subscriber type of design pattern where the publisher is the subject and the subscriber is the observer. 
+The subject is the one who is being observed and the observer is the one who observes the subject. 
+The subject has a list of observers and notifies them whenever there is a change in the state of the subject. 
+The observer can subscribe or unsubscribe to the subject. The observer can also update the subject whenever there is a change in the observer. 
+The observer pattern is also known as the publish-subscribe pattern
+The observer pattern is used when there is one-to-many relationship between objects such as if one object is modified, its dependent objects are to be notified automatically.
+
+Create Two Interfaces : Subject and Observer. Subject has methods to register, unregister and notifying all observers, while Observer has method to update the observer.
+Implement all Observers with this Observer Interface. and ProducerContext Class with Subject Interface.

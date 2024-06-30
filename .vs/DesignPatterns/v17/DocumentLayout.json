@@ -1,0 +1,623 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\POC\\DesignPatterns\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DBCB8846-0659-4680-8A72-C232376BC37A}|FactoryPattern\\FactoryPattern.csproj|d:\\poc\\designpatterns\\factorypattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBCB8846-0659-4680-8A72-C232376BC37A}|FactoryPattern\\FactoryPattern.csproj|solutionrelative:factorypattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBCB8846-0659-4680-8A72-C232376BC37A}|FactoryPattern\\FactoryPattern.csproj|d:\\poc\\designpatterns\\factorypattern\\info.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DBCB8846-0659-4680-8A72-C232376BC37A}|FactoryPattern\\FactoryPattern.csproj|solutionrelative:factorypattern\\info.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|d:\\poc\\designpatterns\\decoratorpattern\\additives\\blueberry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|solutionrelative:decoratorpattern\\additives\\blueberry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|D:\\POC\\DesignPatterns\\decoratorpattern\\additives\\flowerdecorateprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|solutionrelative:decoratorpattern\\additives\\flowerdecorateprint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|D:\\POC\\DesignPatterns\\decoratorpattern\\additives\\milk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|solutionrelative:decoratorpattern\\additives\\milk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|D:\\POC\\DesignPatterns\\decoratorpattern\\additives\\mocha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|solutionrelative:decoratorpattern\\additives\\mocha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|D:\\POC\\DesignPatterns\\decoratorpattern\\additives\\orange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|solutionrelative:decoratorpattern\\additives\\orange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|D:\\POC\\DesignPatterns\\decoratorpattern\\additives\\soymilk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|solutionrelative:decoratorpattern\\additives\\soymilk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|D:\\POC\\DesignPatterns\\decoratorpattern\\additives\\whipcream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|solutionrelative:decoratorpattern\\additives\\whipcream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|D:\\POC\\DesignPatterns\\decoratorpattern\\additivedecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|solutionrelative:decoratorpattern\\additivedecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|D:\\POC\\DesignPatterns\\decoratorpattern\\drinktypes\\summercool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|solutionrelative:decoratorpattern\\drinktypes\\summercool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|D:\\POC\\DesignPatterns\\decoratorpattern\\drinktypes\\expresso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|solutionrelative:decoratorpattern\\drinktypes\\expresso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|D:\\POC\\DesignPatterns\\decoratorpattern\\drinktypes\\hotcoffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|solutionrelative:decoratorpattern\\drinktypes\\hotcoffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|D:\\POC\\DesignPatterns\\decoratorpattern\\drinktypes\\coldcoffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|solutionrelative:decoratorpattern\\drinktypes\\coldcoffee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|D:\\POC\\DesignPatterns\\decoratorpattern\\beverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|solutionrelative:decoratorpattern\\beverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|D:\\POC\\DesignPatterns\\decoratorpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|solutionrelative:decoratorpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C774C42C-EE42-4496-BFF7-EB5220C2B266}|ObserverPattern\\ObserverPattern.csproj|D:\\POC\\DesignPatterns\\observerpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C774C42C-EE42-4496-BFF7-EB5220C2B266}|ObserverPattern\\ObserverPattern.csproj|solutionrelative:observerpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|D:\\POC\\DesignPatterns\\decoratorpattern\\ibeverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|solutionrelative:decoratorpattern\\ibeverage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|D:\\POC\\DesignPatterns\\decoratorpattern\\decoratorpattern.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{12A9F9A0-3BEB-480D-B3A7-074CFC462C19}|DecoratorPattern\\DecoratorPattern.csproj|solutionrelative:decoratorpattern\\decoratorpattern.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C774C42C-EE42-4496-BFF7-EB5220C2B266}|ObserverPattern\\ObserverPattern.csproj|D:\\POC\\DesignPatterns\\observerpattern\\observerpattern.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C774C42C-EE42-4496-BFF7-EB5220C2B266}|ObserverPattern\\ObserverPattern.csproj|solutionrelative:observerpattern\\observerpattern.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C774C42C-EE42-4496-BFF7-EB5220C2B266}|ObserverPattern\\ObserverPattern.csproj|D:\\POC\\DesignPatterns\\observerpattern\\info.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C774C42C-EE42-4496-BFF7-EB5220C2B266}|ObserverPattern\\ObserverPattern.csproj|solutionrelative:observerpattern\\info.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C774C42C-EE42-4496-BFF7-EB5220C2B266}|ObserverPattern\\ObserverPattern.csproj|D:\\POC\\DesignPatterns\\observerpattern\\eventproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C774C42C-EE42-4496-BFF7-EB5220C2B266}|ObserverPattern\\ObserverPattern.csproj|solutionrelative:observerpattern\\eventproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C774C42C-EE42-4496-BFF7-EB5220C2B266}|ObserverPattern\\ObserverPattern.csproj|D:\\POC\\DesignPatterns\\observerpattern\\iproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C774C42C-EE42-4496-BFF7-EB5220C2B266}|ObserverPattern\\ObserverPattern.csproj|solutionrelative:observerpattern\\iproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C774C42C-EE42-4496-BFF7-EB5220C2B266}|ObserverPattern\\ObserverPattern.csproj|D:\\POC\\DesignPatterns\\observerpattern\\inotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C774C42C-EE42-4496-BFF7-EB5220C2B266}|ObserverPattern\\ObserverPattern.csproj|solutionrelative:observerpattern\\inotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C774C42C-EE42-4496-BFF7-EB5220C2B266}|ObserverPattern\\ObserverPattern.csproj|D:\\POC\\DesignPatterns\\observerpattern\\observers\\iotobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C774C42C-EE42-4496-BFF7-EB5220C2B266}|ObserverPattern\\ObserverPattern.csproj|solutionrelative:observerpattern\\observers\\iotobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C774C42C-EE42-4496-BFF7-EB5220C2B266}|ObserverPattern\\ObserverPattern.csproj|D:\\POC\\DesignPatterns\\observerpattern\\observers\\mobileobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C774C42C-EE42-4496-BFF7-EB5220C2B266}|ObserverPattern\\ObserverPattern.csproj|solutionrelative:observerpattern\\observers\\mobileobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C774C42C-EE42-4496-BFF7-EB5220C2B266}|ObserverPattern\\ObserverPattern.csproj|D:\\POC\\DesignPatterns\\observerpattern\\observers\\tabletobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C774C42C-EE42-4496-BFF7-EB5220C2B266}|ObserverPattern\\ObserverPattern.csproj|solutionrelative:observerpattern\\observers\\tabletobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C774C42C-EE42-4496-BFF7-EB5220C2B266}|ObserverPattern\\ObserverPattern.csproj|D:\\POC\\DesignPatterns\\observerpattern\\observers\\webappobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C774C42C-EE42-4496-BFF7-EB5220C2B266}|ObserverPattern\\ObserverPattern.csproj|solutionrelative:observerpattern\\observers\\webappobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD4E1C7E-7BAD-49ED-838E-AE85D98A68C2}|StrategyPattern\\StrategyPattern.csproj|D:\\POC\\DesignPatterns\\strategypattern\\info.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AD4E1C7E-7BAD-49ED-838E-AE85D98A68C2}|StrategyPattern\\StrategyPattern.csproj|solutionrelative:strategypattern\\info.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD4E1C7E-7BAD-49ED-838E-AE85D98A68C2}|StrategyPattern\\StrategyPattern.csproj|D:\\POC\\DesignPatterns\\strategypattern\\searchengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD4E1C7E-7BAD-49ED-838E-AE85D98A68C2}|StrategyPattern\\StrategyPattern.csproj|solutionrelative:strategypattern\\searchengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD4E1C7E-7BAD-49ED-838E-AE85D98A68C2}|StrategyPattern\\StrategyPattern.csproj|D:\\POC\\DesignPatterns\\strategypattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD4E1C7E-7BAD-49ED-838E-AE85D98A68C2}|StrategyPattern\\StrategyPattern.csproj|solutionrelative:strategypattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD4E1C7E-7BAD-49ED-838E-AE85D98A68C2}|StrategyPattern\\StrategyPattern.csproj|D:\\POC\\DesignPatterns\\strategypattern\\searchalgorithms\\recursivebinarysearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD4E1C7E-7BAD-49ED-838E-AE85D98A68C2}|StrategyPattern\\StrategyPattern.csproj|solutionrelative:strategypattern\\searchalgorithms\\recursivebinarysearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD4E1C7E-7BAD-49ED-838E-AE85D98A68C2}|StrategyPattern\\StrategyPattern.csproj|D:\\POC\\DesignPatterns\\strategypattern\\searchalgorithms\\iterativebinarysearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD4E1C7E-7BAD-49ED-838E-AE85D98A68C2}|StrategyPattern\\StrategyPattern.csproj|solutionrelative:strategypattern\\searchalgorithms\\iterativebinarysearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD4E1C7E-7BAD-49ED-838E-AE85D98A68C2}|StrategyPattern\\StrategyPattern.csproj|D:\\POC\\DesignPatterns\\strategypattern\\searchalgorithms\\linearsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD4E1C7E-7BAD-49ED-838E-AE85D98A68C2}|StrategyPattern\\StrategyPattern.csproj|solutionrelative:strategypattern\\searchalgorithms\\linearsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD4E1C7E-7BAD-49ED-838E-AE85D98A68C2}|StrategyPattern\\StrategyPattern.csproj|D:\\POC\\DesignPatterns\\strategypattern\\isearchstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD4E1C7E-7BAD-49ED-838E-AE85D98A68C2}|StrategyPattern\\StrategyPattern.csproj|solutionrelative:strategypattern\\isearchstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD62957-5C84-42DD-83EE-002014F89755}|BuilderPattern\\BuilderPattern.csproj|D:\\POC\\DesignPatterns\\builderpattern\\htmlelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CD62957-5C84-42DD-83EE-002014F89755}|BuilderPattern\\BuilderPattern.csproj|solutionrelative:builderpattern\\htmlelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CD62957-5C84-42DD-83EE-002014F89755}|BuilderPattern\\BuilderPattern.csproj|D:\\POC\\DesignPatterns\\builderpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CD62957-5C84-42DD-83EE-002014F89755}|BuilderPattern\\BuilderPattern.csproj|solutionrelative:builderpattern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Info.txt",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\FactoryPattern\\Info.txt",
+              "RelativeDocumentMoniker": "FactoryPattern\\Info.txt",
+              "ToolTip": "D:\\POC\\DesignPatterns\\FactoryPattern\\Info.txt",
+              "RelativeToolTip": "FactoryPattern\\Info.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-30T12:37:41.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\FactoryPattern\\Program.cs",
+              "RelativeDocumentMoniker": "FactoryPattern\\Program.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\FactoryPattern\\Program.cs",
+              "RelativeToolTip": "FactoryPattern\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T12:37:12.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WhipCream.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\DecoratorPattern\\Additives\\WhipCream.cs",
+              "RelativeDocumentMoniker": "DecoratorPattern\\Additives\\WhipCream.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\DecoratorPattern\\Additives\\WhipCream.cs",
+              "RelativeToolTip": "DecoratorPattern\\Additives\\WhipCream.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:33:15.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SoyMilk.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\DecoratorPattern\\Additives\\SoyMilk.cs",
+              "RelativeDocumentMoniker": "DecoratorPattern\\Additives\\SoyMilk.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\DecoratorPattern\\Additives\\SoyMilk.cs",
+              "RelativeToolTip": "DecoratorPattern\\Additives\\SoyMilk.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:32:51.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Orange.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\DecoratorPattern\\Additives\\Orange.cs",
+              "RelativeDocumentMoniker": "DecoratorPattern\\Additives\\Orange.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\DecoratorPattern\\Additives\\Orange.cs",
+              "RelativeToolTip": "DecoratorPattern\\Additives\\Orange.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:34:12.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Mocha.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\DecoratorPattern\\Additives\\Mocha.cs",
+              "RelativeDocumentMoniker": "DecoratorPattern\\Additives\\Mocha.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\DecoratorPattern\\Additives\\Mocha.cs",
+              "RelativeToolTip": "DecoratorPattern\\Additives\\Mocha.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:33:03.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Milk.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\DecoratorPattern\\Additives\\Milk.cs",
+              "RelativeDocumentMoniker": "DecoratorPattern\\Additives\\Milk.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\DecoratorPattern\\Additives\\Milk.cs",
+              "RelativeToolTip": "DecoratorPattern\\Additives\\Milk.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:32:37.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FlowerDecoratePrint.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\DecoratorPattern\\Additives\\FlowerDecoratePrint.cs",
+              "RelativeDocumentMoniker": "DecoratorPattern\\Additives\\FlowerDecoratePrint.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\DecoratorPattern\\Additives\\FlowerDecoratePrint.cs",
+              "RelativeToolTip": "DecoratorPattern\\Additives\\FlowerDecoratePrint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:33:41.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BlueBerry.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\DecoratorPattern\\Additives\\BlueBerry.cs",
+              "RelativeDocumentMoniker": "DecoratorPattern\\Additives\\BlueBerry.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\DecoratorPattern\\Additives\\BlueBerry.cs",
+              "RelativeToolTip": "DecoratorPattern\\Additives\\BlueBerry.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:34:34.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdditiveDecorator.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\DecoratorPattern\\AdditiveDecorator.cs",
+              "RelativeDocumentMoniker": "DecoratorPattern\\AdditiveDecorator.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\DecoratorPattern\\AdditiveDecorator.cs",
+              "RelativeToolTip": "DecoratorPattern\\AdditiveDecorator.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAArwBEAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:39:55.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SummerCool.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\DecoratorPattern\\DrinkTypes\\SummerCool.cs",
+              "RelativeDocumentMoniker": "DecoratorPattern\\DrinkTypes\\SummerCool.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\DecoratorPattern\\DrinkTypes\\SummerCool.cs",
+              "RelativeToolTip": "DecoratorPattern\\DrinkTypes\\SummerCool.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:31:44.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Expresso.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\DecoratorPattern\\DrinkTypes\\Expresso.cs",
+              "RelativeDocumentMoniker": "DecoratorPattern\\DrinkTypes\\Expresso.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\DecoratorPattern\\DrinkTypes\\Expresso.cs",
+              "RelativeToolTip": "DecoratorPattern\\DrinkTypes\\Expresso.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:31:12.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HotCoffee.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\DecoratorPattern\\DrinkTypes\\HotCoffee.cs",
+              "RelativeDocumentMoniker": "DecoratorPattern\\DrinkTypes\\HotCoffee.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\DecoratorPattern\\DrinkTypes\\HotCoffee.cs",
+              "RelativeToolTip": "DecoratorPattern\\DrinkTypes\\HotCoffee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:30:46.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ColdCoffee.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\DecoratorPattern\\DrinkTypes\\ColdCoffee.cs",
+              "RelativeDocumentMoniker": "DecoratorPattern\\DrinkTypes\\ColdCoffee.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\DecoratorPattern\\DrinkTypes\\ColdCoffee.cs",
+              "RelativeToolTip": "DecoratorPattern\\DrinkTypes\\ColdCoffee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:30:33.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Beverage.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\DecoratorPattern\\Beverage.cs",
+              "RelativeDocumentMoniker": "DecoratorPattern\\Beverage.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\DecoratorPattern\\Beverage.cs",
+              "RelativeToolTip": "DecoratorPattern\\Beverage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:27:03.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\DecoratorPattern\\Program.cs",
+              "RelativeDocumentMoniker": "DecoratorPattern\\Program.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\DecoratorPattern\\Program.cs",
+              "RelativeToolTip": "DecoratorPattern\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:22:46.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\ObserverPattern\\Program.cs",
+              "RelativeDocumentMoniker": "ObserverPattern\\Program.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\ObserverPattern\\Program.cs",
+              "RelativeToolTip": "ObserverPattern\\Program.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAowB8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T17:30:07.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IBeverage.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\DecoratorPattern\\IBeverage.cs",
+              "RelativeDocumentMoniker": "DecoratorPattern\\IBeverage.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\DecoratorPattern\\IBeverage.cs",
+              "RelativeToolTip": "DecoratorPattern\\IBeverage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:26:19.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DecoratorPattern",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\DecoratorPattern\\DecoratorPattern.csproj",
+              "RelativeDocumentMoniker": "DecoratorPattern\\DecoratorPattern.csproj",
+              "ToolTip": "D:\\POC\\DesignPatterns\\DecoratorPattern\\DecoratorPattern.csproj",
+              "RelativeToolTip": "DecoratorPattern\\DecoratorPattern.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-16T13:22:56.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EventProducer.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\ObserverPattern\\EventProducer.cs",
+              "RelativeDocumentMoniker": "ObserverPattern\\EventProducer.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\ObserverPattern\\EventProducer.cs",
+              "RelativeToolTip": "ObserverPattern\\EventProducer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:19:17.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "INotifier.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\ObserverPattern\\INotifier.cs",
+              "RelativeDocumentMoniker": "ObserverPattern\\INotifier.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\ObserverPattern\\INotifier.cs",
+              "RelativeToolTip": "ObserverPattern\\INotifier.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:19:40.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IProducer.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\ObserverPattern\\IProducer.cs",
+              "RelativeDocumentMoniker": "ObserverPattern\\IProducer.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\ObserverPattern\\IProducer.cs",
+              "RelativeToolTip": "ObserverPattern\\IProducer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:20:58.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ObserverPattern",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\ObserverPattern\\ObserverPattern.csproj",
+              "RelativeDocumentMoniker": "ObserverPattern\\ObserverPattern.csproj",
+              "ToolTip": "D:\\POC\\DesignPatterns\\ObserverPattern\\ObserverPattern.csproj",
+              "RelativeToolTip": "ObserverPattern\\ObserverPattern.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-15T14:19:05.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MobileObserver.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\ObserverPattern\\Observers\\MobileObserver.cs",
+              "RelativeDocumentMoniker": "ObserverPattern\\Observers\\MobileObserver.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\ObserverPattern\\Observers\\MobileObserver.cs",
+              "RelativeToolTip": "ObserverPattern\\Observers\\MobileObserver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:31:50.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Info.txt",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\ObserverPattern\\Info.txt",
+              "RelativeDocumentMoniker": "ObserverPattern\\Info.txt",
+              "ToolTip": "D:\\POC\\DesignPatterns\\ObserverPattern\\Info.txt",
+              "RelativeToolTip": "ObserverPattern\\Info.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-15T14:17:44.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IOTObserver.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\ObserverPattern\\Observers\\IOTObserver.cs",
+              "RelativeDocumentMoniker": "ObserverPattern\\Observers\\IOTObserver.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\ObserverPattern\\Observers\\IOTObserver.cs",
+              "RelativeToolTip": "ObserverPattern\\Observers\\IOTObserver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:32:32.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TabletObserver.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\ObserverPattern\\Observers\\TabletObserver.cs",
+              "RelativeDocumentMoniker": "ObserverPattern\\Observers\\TabletObserver.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\ObserverPattern\\Observers\\TabletObserver.cs",
+              "RelativeToolTip": "ObserverPattern\\Observers\\TabletObserver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:31:12.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "WebAppObserver.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\ObserverPattern\\Observers\\WebAppObserver.cs",
+              "RelativeDocumentMoniker": "ObserverPattern\\Observers\\WebAppObserver.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\ObserverPattern\\Observers\\WebAppObserver.cs",
+              "RelativeToolTip": "ObserverPattern\\Observers\\WebAppObserver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:24:50.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SearchEngine.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\StrategyPattern\\SearchEngine.cs",
+              "RelativeDocumentMoniker": "StrategyPattern\\SearchEngine.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\StrategyPattern\\SearchEngine.cs",
+              "RelativeToolTip": "StrategyPattern\\SearchEngine.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T08:26:05.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RecursiveBinarySearch.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\StrategyPattern\\SearchAlgorithms\\RecursiveBinarySearch.cs",
+              "RelativeDocumentMoniker": "StrategyPattern\\SearchAlgorithms\\RecursiveBinarySearch.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\StrategyPattern\\SearchAlgorithms\\RecursiveBinarySearch.cs",
+              "RelativeToolTip": "StrategyPattern\\SearchAlgorithms\\RecursiveBinarySearch.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAswAwAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T18:09:40.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IterativeBinarySearch.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\StrategyPattern\\SearchAlgorithms\\IterativeBinarySearch.cs",
+              "RelativeDocumentMoniker": "StrategyPattern\\SearchAlgorithms\\IterativeBinarySearch.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\StrategyPattern\\SearchAlgorithms\\IterativeBinarySearch.cs",
+              "RelativeToolTip": "StrategyPattern\\SearchAlgorithms\\IterativeBinarySearch.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T17:59:23.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LinearSearch.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\StrategyPattern\\SearchAlgorithms\\LinearSearch.cs",
+              "RelativeDocumentMoniker": "StrategyPattern\\SearchAlgorithms\\LinearSearch.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\StrategyPattern\\SearchAlgorithms\\LinearSearch.cs",
+              "RelativeToolTip": "StrategyPattern\\SearchAlgorithms\\LinearSearch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T17:50:36.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ISearchStrategy.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\StrategyPattern\\ISearchStrategy.cs",
+              "RelativeDocumentMoniker": "StrategyPattern\\ISearchStrategy.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\StrategyPattern\\ISearchStrategy.cs",
+              "RelativeToolTip": "StrategyPattern\\ISearchStrategy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T17:49:18.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Info.txt",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\StrategyPattern\\Info.txt",
+              "RelativeDocumentMoniker": "StrategyPattern\\Info.txt",
+              "ToolTip": "D:\\POC\\DesignPatterns\\StrategyPattern\\Info.txt",
+              "RelativeToolTip": "StrategyPattern\\Info.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-16T17:30:54.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\StrategyPattern\\Program.cs",
+              "RelativeDocumentMoniker": "StrategyPattern\\Program.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\StrategyPattern\\Program.cs",
+              "RelativeToolTip": "StrategyPattern\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T17:29:43.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "HtmlElement.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\BuilderPattern\\HtmlElement.cs",
+              "RelativeDocumentMoniker": "BuilderPattern\\HtmlElement.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\BuilderPattern\\HtmlElement.cs",
+              "RelativeToolTip": "BuilderPattern\\HtmlElement.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAA3wBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-18T17:59:47.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\POC\\DesignPatterns\\BuilderPattern\\Program.cs",
+              "RelativeDocumentMoniker": "BuilderPattern\\Program.cs",
+              "ToolTip": "D:\\POC\\DesignPatterns\\BuilderPattern\\Program.cs",
+              "RelativeToolTip": "BuilderPattern\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-18T17:51:10.772Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

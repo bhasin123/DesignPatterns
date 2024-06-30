@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "V8vPZxiEQzi3m9PvswS4bcyZPUlcEQXziw6b/Ywpfzk3Xx4aTd7Wtjmfw89SJ+IKzFa8onu8OIB4wYot+MQdIg==",
+  "success": true,
+  "projectFilePath": "D:\\POC\\DesignPatterns\\DecoratorPattern\\DecoratorPattern.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rohit.bhasin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\rohit.bhasin\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\rohit.bhasin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\rohit.bhasin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.13\\microsoft.netcore.app.host.win-x64.6.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

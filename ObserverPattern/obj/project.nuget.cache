@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "8l+gWX0lEvy66ElLkq2UdQjNfSoe0pKns0iKdtLMCl2nKaMRi9sq/RacB13rL0PhROOP6KFlWhbaRw8d3GD0MQ==",
+  "success": true,
+  "projectFilePath": "D:\\POC\\DesignPatterns\\ObserverPattern\\ObserverPattern.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rohit.bhasin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\rohit.bhasin\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\rohit.bhasin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\rohit.bhasin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.13\\microsoft.netcore.app.host.win-x64.6.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

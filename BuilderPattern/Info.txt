@@ -1,0 +1,18 @@
+﻿In the Builder design pattern, the Builder class is a key component responsible for constructing a complex object step by step. 
+The pattern is often used when an object needs to be created with a large number of optional components or configurations. 
+The Builder pattern separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
+
+The typical components of the Builder pattern include:
+
+Product: The complex object that the Builder is responsible for constructing. (Model)
+
+Builder: An abstract interface or class that declares the construction steps for building the product. 
+It usually includes methods for setting various attributes or components of the product. (Interface/Abstarct)
+
+ConcreteBuilder: A concrete implementation of the Builder interface that provides specific implementations for the construction steps. 
+It is responsible for creating and assembling the parts of the product. (Implementation)
+
+Director: Coordinates the construction process by using a Builder object. It knows how to assemble the product using the Builder's interface.(How set Implementation)
+
+Client: Initiates the construction of the product through the Director. (Call)
+

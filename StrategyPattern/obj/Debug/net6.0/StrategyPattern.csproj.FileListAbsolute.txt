@@ -1,0 +1,14 @@
+D:\POC\DesignPatterns\StrategyPattern\bin\Debug\net6.0\StrategyPattern.exe
+D:\POC\DesignPatterns\StrategyPattern\bin\Debug\net6.0\StrategyPattern.deps.json
+D:\POC\DesignPatterns\StrategyPattern\bin\Debug\net6.0\StrategyPattern.runtimeconfig.json
+D:\POC\DesignPatterns\StrategyPattern\bin\Debug\net6.0\StrategyPattern.dll
+D:\POC\DesignPatterns\StrategyPattern\bin\Debug\net6.0\StrategyPattern.pdb
+D:\POC\DesignPatterns\StrategyPattern\obj\Debug\net6.0\StrategyPattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\POC\DesignPatterns\StrategyPattern\obj\Debug\net6.0\StrategyPattern.AssemblyInfoInputs.cache
+D:\POC\DesignPatterns\StrategyPattern\obj\Debug\net6.0\StrategyPattern.AssemblyInfo.cs
+D:\POC\DesignPatterns\StrategyPattern\obj\Debug\net6.0\StrategyPattern.csproj.CoreCompileInputs.cache
+D:\POC\DesignPatterns\StrategyPattern\obj\Debug\net6.0\StrategyPattern.dll
+D:\POC\DesignPatterns\StrategyPattern\obj\Debug\net6.0\refint\StrategyPattern.dll
+D:\POC\DesignPatterns\StrategyPattern\obj\Debug\net6.0\StrategyPattern.pdb
+D:\POC\DesignPatterns\StrategyPattern\obj\Debug\net6.0\StrategyPattern.genruntimeconfig.cache
+D:\POC\DesignPatterns\StrategyPattern\obj\Debug\net6.0\ref\StrategyPattern.dll
