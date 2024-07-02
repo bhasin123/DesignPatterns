@@ -1,0 +1,29 @@
+﻿
+It is a creational design pattern that provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+
+### Problem
+Imagine that you are creating a system for rendering different types of buttons. You have a `Button` class and a `Checkbox` class. You want to create a `Windows` version and a `Mac` version of these classes.
+
+Basically when you have different products and that too of different variants, you can use the Abstract Factory pattern.
+
+create interface for products and then create concrete classes for each product. 
+Then create an abstract factory interface that declares creation methods for each product. 
+Then create concrete factories that implement the abstract factory interface and create the products.
+
+### When to use
+- When a system should be independent of how its products are created, composed, and represented.
+- When a system should be configured with one of multiple families of products.
+- When a family of related product objects is designed to be used together, and you need to enforce this constraint.
+- When you want to provide a class library of products, and you want to reveal just their interfaces, not their implementations.
+
+### Example
+- Suppose you are building a GUI library. You have a `Button` class and a `Checkbox` class. You want to create a `Windows` version and a `Mac` version of these classes. 
+You can use the Abstract Factory pattern to create a `WindowsFactory` and a `MacFactory` that will create the appropriate `Button` and `Checkbox` objects for each platform.
+
+### Structure
+1. Abstract Factory: declares an interface for operations that create abstract products.
+2. Concrete Factory: implements operations to create concrete products.
+3. Abstract Product: declares an interface for a type of product object.
+4. Concrete Product: defines a product object to be created by the corresponding concrete factory.
+5. Client: uses only interfaces declared by Abstract Factory and Abstract Product classes.
+
