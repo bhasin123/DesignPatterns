@@ -1,0 +1,27 @@
+﻿Singleton Pattern is used to restrict the instantiation of a class to one object. This is useful when exactly one object is needed to coordinate actions across the system. 
+The concept is sometimes generalized to systems that operate more efficiently when only one object exists, or that restrict the instantiation to a certain number of objects. 
+The term comes from the mathematical concept of a singleton.
+
+Major examples of Singleton Pattern are:
+1. Logger Classes
+2. Configuration Classes
+3. Accesing resources in shared mode
+4. Factories implemented as Singletons
+
+
+Singleton Pattern is implemented by creating a class with a method that creates a new instance of the object if one does not exist. 
+If an instance already exists, it simply returns a reference to that object. To make sure that the object cannot be instantiated any other way, the constructor is made private.
+
+Singletons often control access to resources, such as database connections or sockets. 
+For example, if you have a license for only one connection for a database or a socket, you can use a Singleton to ensure that your application does not try to open more than one connection.
+
+The singleton pattern must be carefully constructed in multi-threaded applications. 
+If two threads are to execute the creation method at the same time when a singleton does not yet exist, they both must check for an instance of the singleton and then only one should create the new one.
+
+
+Singletons are often preferred to global variables because:
+1. They do not pollute the global namespace (or, in languages with namespaces, their containing namespace) with unnecessary variables.
+2. They permit lazy allocation and initialization, whereas global variables in many languages will always consume resources.
+
+Singletons are often used in conjunction with Factory Method pattern.
+
