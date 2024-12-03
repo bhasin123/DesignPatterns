@@ -1,5 +1,17 @@
-*/bin/
-*/obj/
-.vs
+**/bin/
+**/obj/
+.vs/
 .idea
+
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+
+# User-specific files
+*.rsuser
 *.suo
+*.user
+
