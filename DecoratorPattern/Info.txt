@@ -1,0 +1,20 @@
+﻿Decorator Pattern is a structual design pattern. It is used to add new functionality to an existing object without altering its structure. 
+This pattern creates a decorator class which wraps the original class and provides additional functionality keeping class methods signature intact.
+
+The decorator pattern is a useful alternative to creating sub-classes. 
+
+It is useful when:
+✔ You want to extend functionality at runtime (e.g., adding extra features to UI components).
+✔ You want to keep the base class simple and avoid subclass explosion (too many subclasses for each feature combination).
+✔ You want to follow the Open/Closed Principle (OCP) – objects should be extendable without modifying existing code.
+
+The decorator pattern is used in the following scenarios:
+✔ Extending an object’s functionality without subclassing.
+✔ Adding or removing responsibilities dynamically.
+✔ When extension by subclassing is impractical. Sometimes a large number of independent extensions are possible and would produce an explosion of subclasses to support every combination. 
+Or a class definition may be hidden or otherwise unavailable for subclassing.
+
+The Decorator Pattern is perfect for this since:
+✅ It allows stacking multiple decorators (e.g., Coffee → with Milk → with Sugar).
+✅ It avoids creating subclasses for every combination (e.g., CoffeeWithMilk, CoffeeWithSugar, CoffeeWithMilkAndSugar).
+✅ It allows adding or removing responsibilities at runtime.

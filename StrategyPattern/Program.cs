@@ -14,7 +14,7 @@ namespace StrategyPattern
             Console.WriteLine("Implementing Different Search Strategies using Strategy Pattern!");
 
             Console.WriteLine("Using Linear Search Strategy");
-            var searchEngine = new SearchEngine(new LinearSearch());
+            var searchEngine = new SearchEngineContext(new LinearSearch());
             foundAt = searchEngine.Search(searchArray, notoFind);
             Console.WriteLine(foundAt == -1 ? "Not Found" : $"Found at Index: {foundAt}");
 

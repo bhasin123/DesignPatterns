@@ -1,0 +1,37 @@
+﻿Command Pattern - Command Pattern is a behavioral design pattern that turns a request into a stand-alone object that contains all information about the request. 
+This transformation lets you parameterize methods with different requests, delay or queue a request's execution, and support undoable operations.
+
+This is a design pattern that encapsulates a request as an object. Instead of calling a method directly, we create a command object that knows what action to perform.
+
+This helps in:
+
+Decoupling sender and receiver (loose coupling).
+Undo/Redo functionality (saving previous commands).
+Queueing requests (executing commands later).
+Logging requests.
+Macro recording (recording a sequence of commands).
+Remote control (invoking methods on a remote server).
+Transaction management (commit/rollback).
+
+Components of the Command Pattern
+
+Component							-	Description
+Command (Interface/Abstract Class)	-	Declares the method that executes the command.
+Concrete Command (Implementation)	-	Implements the command using a receiver.
+Receiver (Business Logic)			-	The object that performs the actual operation.
+Invoker (Caller/Trigger)			-	Stores the command and calls Execute().
+Client								-	Creates commands and assigns them to the invoker.
+
+Example:
+Let's say we have a light and we want to turn it on and off. We can create a command object that knows how to turn on and off the light.
+
+Steps
+to implement the Command Pattern:
+
+Create a command Interface with an Execute() method. For supporting Undo operation, we can add an Undo() method.
+Create a concrete command classes that implements the command interface. They know what operations to perform. In Method arguments, we can pass the receiver object and take reciever object and other required details as fields.
+Create a reciever class that performs the actual operation
+Create an Invoker class that stores the command and call the Execute() Method of the concrete command.
+Create a client class that creates the command and assigns it to the invoker. It is responsible for creating concrete command object and setting its receiver.
+
+

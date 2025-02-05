@@ -6,8 +6,8 @@ Imagine that you are creating a system for rendering different types of buttons.
 
 Basically when you have different products and that too of different variants, you can use the Abstract Factory pattern.
 
-create interface for products and then create concrete classes for each product. 
-Then create an abstract factory interface that declares creation methods for each product. 
+create interface for products and then create concrete classes for each product for all variants. 
+Then create an abstract factory interface that declares creation methods for each product for all variants. 
 Then create concrete factories that implement the abstract factory interface and create the products.
 
 ### When to use

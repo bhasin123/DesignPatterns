@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace StrategyPattern
 {
-    internal class SearchEngine
+    internal class SearchEngineContext
     {
         private ISearchStrategy _searchStrategy;
 
-        public SearchEngine(ISearchStrategy searchStrategy)
+        public SearchEngineContext(ISearchStrategy searchStrategy)
         {
             this._searchStrategy = searchStrategy;
         }
