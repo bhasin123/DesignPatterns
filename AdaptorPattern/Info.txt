@@ -1,0 +1,16 @@
+﻿Adaptor Design Pattern is a structural design pattern that is used so that two unrelated interfaces can work together. The object that joins these unrelated interfaces is called an Adapter. 
+The Adapter is responsible for joining the interfaces and convert the interface of a class into other interface(target) that a client expects.
+The Adaptor pattern is used when the client expects a target interface and the adaptee class does not provide the target interface. It is used for that interface compatibility conversion.
+It is like an adapter object acts as a connecting bridge between an existing class(Adaptee) and a client(Target Interface) that requires a different interface.
+Its responsibility is to convert one interface to another interface.
+The Adapter pattern is also known as Wrapper.
+It could be like Command Pattern We could make use of both pattern together to make the system more flexible and robust.
+
+Related Design Patterns --> Facade Pattern, Command Pattern
+
+Steps:
+1. Create Adaptee interface and its implementations.
+2. Create Target interface and its implementations.
+3. Create Adapter class that implements the Adaptee interface and has a reference to the Target object.
+4. Create Client class that uses the Target object referenced by Adaptee Interface.
+5. Create a main class to test the Adapter Design Pattern.
