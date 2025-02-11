@@ -1,0 +1,15 @@
+﻿Facade Pattern is a structural design pattern. It is used to provide a unified interface to a set of projects in a subsystem. 
+It defines a higher level interface that makes the subsystem easier to use. When we have complicated subsystems, working of multiple classes together, inorder to simplify the usage of these subsystems, we can use Facade pattern.
+Its intent is just to simplify the usage of the subsystem. It does not add any new functionality to the subsystem. It just provides a simple interface to the client to use the subsystem.
+Existing functionaly will work as it it. We built just a wrapper around the subsystem to make it easier to use.
+
+Example:
+Consider a computer system. It has multiple subsystems like CPU, Memory, Hard Disk, etc. Each of these subsystems have multiple classes. 
+If we want to use the computer system, we need to use all these classes. Instead of using all these classes, we can create a Facade class that provides a simple interface to the client 
+to use the computer system. The Facade class will delegate the calls to the subsystem classes.
+
+Steps:
+1. Identify the subsystems that are most likely to be used by the client.
+2. Create a Facade class that provides a simple interface to the client to use the subsystem.
+3. The Facade class should delegate the calls to the subsystem classes.
+4. The client should use the Facade class to access the subsystem.
