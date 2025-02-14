@@ -1,0 +1,16 @@
+﻿Template Pattern is a behavioral design pattern that defines the program skeleton of an algorithm in the superclass but lets the subclass override specific steps of the algorithm without changing its structure.
+It is a template method that defines the steps of an algorithm and allows the implementation of the individual steps to be changed.
+It is used when we want to let the subclasses implement the behavior of the algorithm.
+It is used when we want to avoid code duplication.
+It is useful when multiple classes share the same logic but need to customize certain steps.
+It is basic encapsulation, in which we define abstract class and subclass implementing it
+
+Relate Pattern:
+1. Factory Method Pattern
+2. Strategy Pattern
+
+Steps:
+1. Create an abstract class that contains a template method.
+2. Create concrete classes that extend the abstract class.
+3. Implement the abstract methods in the concrete classes.
+4. Use the concrete classes to create objects.
