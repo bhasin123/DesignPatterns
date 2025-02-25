@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace IteratorPattern.IteratorAggregators
 {
-    internal class CMenuItems : IEnumerator<string>, IEnumerable<string>, IMenu
+    internal class CMenuItems : IEnumerator<string>, IMenu
     {
         public List<string> MenuItems;
         private int position = -1;

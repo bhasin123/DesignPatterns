@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 
 namespace IteratorPattern
 {
-    internal interface IMenu
+    internal interface IMenu : IEnumerable<string>
     {
-        public IEnumerable<string> CreateEnumerator();
     }
 }

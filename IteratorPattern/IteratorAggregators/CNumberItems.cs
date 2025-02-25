@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace IteratorPattern.IteratorAggregators
 {
-    internal class CNumberItems : IEnumerable<string>, IMenu
+    internal class CNumberItems :  IMenu
     {
         public string[] NumItems;
 
