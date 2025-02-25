@@ -1,0 +1,46 @@
+﻿Iterator Pattern is a behavioral Design Pattern that provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation. 
+It provides a way to traverse the elements of an aggregate object without exposing the underlying iplementation.
+
+This pattern is implemented via two ways:
+Primarily using IEnumerable and IEnumerator interfaces.
+Secondly using return yield statement.
+
+IEnumerator / IEnumerator<T>:
+This interface provides the actual mechanics for iterating over a collection. It includes:
+- MoveNext(): Advances the iterator to the next element of the collection.
+- Current: Gets the element in the collection at the current position of the iterator.
+- Reset()[optional]: Sets the iterator to its initial position, which is before the first element in the collection.
+
+The iterator pattern abstracts the traversal of a collection. Instead of exposing the collection's internal structure (like arrays or linked lists),
+the iterator pattern offers a simple interface for moving through the collection. This abstraction allows you to change the underlying collection implementation without affecting the code that uses it.
+
+The iterator pattern is used in many places in the .NET Framework, such as in the foreach loop, which uses the IEnumerable and IEnumerator interfaces to iterate over collections.
+
+Steps to implement Iterator Pattern:
+1. Create an Iterator interface with methods for traversing the collection. (Not needed, as .Net provides standard Interfaces - IEnumerator or IEnumerator<T>)
+2. Create a concrete Iterator class that implements the Iterator interface. (Not needed, as .Net provides standard Interfaces - IEnumerator or IEnumerator<T>)
+3. Create an Aggregate interface with a method that returns an Iterator.
+4. Create a concrete Aggregate class that implements the Aggregate interface.
+5. In the client code, use the Aggregate interface to get an Iterator and traverse the collection.
+
+So basically when we implement a class by ienumerable, and we make a loop over it, internally it will call getenumerator of that class. 
+If we are returning via return yield, it return the value. Otherwise it will go for MoveNext and Current
+
+
+IEnumerable Interface:
+When you implement the IEnumerable interface (or its generic version IEnumerable<T>), you're promising that your class can provide an enumerator. 
+The foreach loop (or any iteration construct) will call your GetEnumerator() method.
+
+
+GetEnumerator Method:
+If you've implemented GetEnumerator() using yield return, the compiler automatically creates a state machine behind the scenes.
+That state machine implements IEnumerator<T>, which includes the MoveNext() method and the Current property.
+
+
+How Iteration Works Internally:
+foreach calls GetEnumerator() on your collection.
+It then repeatedly calls MoveNext() on the returned enumerator:
+MoveNext() advances the state of the enumerator.
+The Current property returns the current element.
+If you use yield return, each call to MoveNext() executes the next segment of your iterator method until it hits a yield return, which provides the next element.
+
