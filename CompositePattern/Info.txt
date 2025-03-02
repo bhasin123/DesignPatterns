@@ -1,0 +1,29 @@
+﻿Composite Design Pattern is a structural design pattern that combines multiple objects into a single object to represent a part-whole structure.
+It lets clients treat individual objects(leaves) and compostitions of objects(composites) uniformly. It i applicable when we do need to implement a tree like structure. 
+
+###Example : File and Directory Structure, Organization Structure, Computer Hardware Structure etc.
+
+### When to use Composite Design Pattern
+1. When you want to represent part-whole hierarchies of objects.
+2. When you want clients to be able to ignore the difference between compositions of objects and individual objects. Clients will treat all objects in the composite structure uniformly.
+3. When you want to add or remove objects in the tree structure.
+4. When you want to create a structure in a way that the client can treat individual objects and compositions of objects uniformly.
+
+### Advantages of Composite Design Pattern
+1. It defines class hierarchies that contain primitive and complex objects.
+2. It makes the client code easier to implement.
+3. It makes it easier to add new kinds of components.
+4. It provides flexibility of structure with manageable code that is easy to understand.
+
+### Disadvantages of Composite Design Pattern
+1. It might make the design overly general.
+
+
+###Steps to implement Composite Design Pattern
+1. Create a Component interface that declares the common operations for both simple and complex objects.
+2. Create a Leaf class that implements the Component interface.
+3. Create a Composite class that also implements the Component interface. It should have a collection of child components.
+4. Use the Composite class to create the tree structure.
+5. The client code uses the Component interface to work with objects in the tree structure.
+
+
