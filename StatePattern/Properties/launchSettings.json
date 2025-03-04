@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "StatePattern": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

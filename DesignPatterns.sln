@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplatePattern", "Template
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{EF5E8997-A786-4ACF-89C3-1533A50C3026}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{9385E5FB-1F35-449C-8DCD-44601D2CF4FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{9385E5FB-1F35-449C-8DCD-44601D2CF4FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "StatePattern\StatePattern.csproj", "{F933E219-6EB8-4066-B792-33E783200E87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{9385E5FB-1F35-449C-8DCD-44601D2CF4FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9385E5FB-1F35-449C-8DCD-44601D2CF4FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9385E5FB-1F35-449C-8DCD-44601D2CF4FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F933E219-6EB8-4066-B792-33E783200E87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F933E219-6EB8-4066-B792-33E783200E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F933E219-6EB8-4066-B792-33E783200E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F933E219-6EB8-4066-B792-33E783200E87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,34 @@
+﻿State Design Pattern is a behavioral design pattern that allows an object to alter its behavior when its internal state changes. The object will appear to change its class.
+Instead of using conditional statements (like multiple if-else, switch, etc) to determine the behavior of an object, 
+we can create different classes for different states and use these classes to change the behavior of the object.
+It is like strategy pattern but the difference is that the strategy pattern is used to change the behavior of an object based on the context,
+whereas the state pattern is used to change the object's behavior based on its state.
+
+###Example:
+1. Consider a simple example of a fan. A fan can be in three states: Off, Low, and High. 
+When we switch on the fan, it was in Off state. If we press the button once, it changes to Low state.
+If we press the button again, it changes to High state. If we press the button again, it changes back to Off state.
+2. Consider a simple example of a traffic signal. A traffic signal can be in three states: Red, Yellow, and Green. 
+When the signal is Red, the vehicles must stop. When the signal is Yellow, the vehicles must get ready to move. 
+When the signal is Green, the vehicles must move.
+
+###Advantages:
+1. It allows an object to change its behavior when its internal state changes.
+2. It isolates the code related to the state from the other code.
+3. It makes the code cleaner and more structured.
+
+###Disadvantages:
+1. It increases the number of classes in the program.
+2. It makes the code more complex.
+
+###When to use State Design Pattern:
+1. When an object’s behavior depends on its state and it must change its behavior at runtime.
+2. When the operations have large, multipart conditional statements that depend on the object’s state.
+3. When the class has multiple states and the behavior of the class depends on the state.
+4. When the class has operations that behave differently based on the state.
+
+###Steps to implement State Design Pattern:
+1. Create a State interface that defines the methods that should be implemented by different states.
+2. Create concrete classes that implement the State interface.
+3. Create a Context class that contains a State object to delegate the state-specific behavior.
+4. Create a client class that uses the Context class to change the state of the object.
