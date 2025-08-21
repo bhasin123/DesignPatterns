@@ -1,0 +1,22 @@
+﻿Prototype Pattern is a creational design pattern that allows for creating objects based on a template of an existing object through cloning. 
+It is particularly useful when the cost of creating a new instance of an object is more expensive than copying an existing instance.
+
+### When to use
+- When the cost of creating a new instance of an object is more expensive than copying an existing instance.
+- When you want to avoid the overhead of creating a new instance from scratch.
+- When you want to create a new object based on an existing object, but with some modifications.
+- When you want to create a new object that is similar to an existing object, but with some differences.
+
+### Example
+- Suppose you have a complex object like a `Car` that has many attributes and is expensive to create.
+Instead of creating a new `Car` object from scratch, you can create a prototype `Car` object and clone it to create new `Car` objects.
+- In a game, you might have a `Character` class that has many attributes and is expensive to create.
+Instead of creating a new `Character` object from scratch, you can create a prototype `Character` object and clone it to create new `Character` objects with some modifications.
+- In a graphic editor, you might have a `Shape` class that has many attributes and is expensive to create.
+Instead of creating a new `Shape` object from scratch, you can create a prototype `Shape` object and clone it to create new `Shape` objects with some modifications.
+
+### Actors involved in the Prototype pattern:
+- Prototype: an interface or abstract class that declares the cloning method.
+- ConcretePrototype: a class that implements the Prototype interface and provides the actual implementation for cloning.
+- Client: a class that uses the Prototype to create new objects by cloning existing ones.
+
