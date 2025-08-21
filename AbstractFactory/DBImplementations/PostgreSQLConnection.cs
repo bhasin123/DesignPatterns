@@ -6,34 +6,34 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory.DBImplementations
 {
-    internal class MongoHelper : IDBHelper
+    internal class PostgreSQLConnection : IDBConnection
     {
         public void CloseConnection()
         {
-            Console.WriteLine("Mongo Connection Closed");
+            Console.WriteLine("PostgreSQL Connection Closed");
         }
 
         public void ExecuteCommand()
         {
-            Console.WriteLine("Mongo Command Executed");
+            Console.WriteLine("PostgreSQL Command Executed");
         }
 
         public void OpenConnection()
         {
-            Console.WriteLine("Mongo Connection Opened");
+            Console.WriteLine("PostgreSQL Connection Opened");
         }
     }
 
-    internal class MongoParameterHelper : IDBParameter
+    internal class PostgreSQLParameters : IDBParameter
     {
         public void AddParameters()
         {
-            Console.WriteLine("Mongo Parameters Added");
+            Console.WriteLine("PostgreSQL Parameters Added");
         }
 
         public void GetParameters()
         {
-            Console.WriteLine("Mongo Parameters Fetched");
+            Console.WriteLine("PostgreSQL Parameters Fetched");
         }
     }
 }

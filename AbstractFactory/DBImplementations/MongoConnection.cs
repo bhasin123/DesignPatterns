@@ -6,34 +6,34 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory.DBImplementations
 {
-    internal class OracleHelper : IDBHelper
+    internal class MongoConnection : IDBConnection
     {
         public void CloseConnection()
         {
-            Console.WriteLine("Oracle Connection Closed");
+            Console.WriteLine("Mongo Connection Closed");
         }
 
         public void ExecuteCommand()
         {
-            Console.WriteLine("Oracle Command Executed");
+            Console.WriteLine("Mongo Command Executed");
         }
 
         public void OpenConnection()
         {
-            Console.WriteLine("Oracle Connection Opened");
+            Console.WriteLine("Mongo Connection Opened");
         }
     }
 
-    internal class OracleParameterHelper : IDBParameter
+    internal class MongoParameters : IDBParameter
     {
         public void AddParameters()
         {
-            Console.WriteLine("Oracle Parameters Added");
+            Console.WriteLine("Mongo Parameters Added");
         }
 
         public void GetParameters()
         {
-            Console.WriteLine("Oracle Parameters Fetched");
+            Console.WriteLine("Mongo Parameters Fetched");
         }
     }
 }

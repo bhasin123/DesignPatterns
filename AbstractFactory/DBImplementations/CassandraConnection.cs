@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory.DBImplementations
 {
-    internal class CassandraHelper : IDBHelper
+    internal class CassandraConnection : IDBConnection
     {
         public void CloseConnection()
         {
@@ -24,7 +24,7 @@ namespace AbstractFactory.DBImplementations
         }
     }
 
-    internal class CassandraParameterHelper : IDBParameter
+    internal class CassandraParameters : IDBParameter
     {
         public void AddParameters()
         {

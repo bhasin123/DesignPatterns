@@ -9,14 +9,14 @@ namespace AbstractFactory.Factories
 {
     internal class PosgreSQLFactory : IDBFactory
     {
-        public IDBHelper GetDBHelper()
+        public IDBConnection GetDBConnection()
         {
-            return new PostgreSQLHelper();
+            return new PostgreSQLConnection();
         }
 
         public IDBParameter GetDBParameters()
         {
-            return new PostgreSQLParameterHelper();
+            return new PostgreSQLParameters();
         }
     }
 }

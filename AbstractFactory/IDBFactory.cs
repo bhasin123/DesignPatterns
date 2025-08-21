@@ -8,7 +8,7 @@ namespace AbstractFactory
 {
     internal interface IDBFactory
     {
-        IDBHelper GetDBHelper();
+        IDBConnection GetDBConnection();
         IDBParameter GetDBParameters();
     }
 }

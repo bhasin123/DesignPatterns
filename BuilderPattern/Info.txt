@@ -1,6 +1,10 @@
 ﻿In the Builder design pattern, the Builder class is a key component responsible for constructing a complex object step by step. 
-The pattern is often used when an object needs to be created with a large number of optional components or configurations. 
-The Builder pattern separates the construction of a complex object from its representation, allowing the same construction process to create different representations.
+The pattern is often used when an object needs to be created with a large number of optional parameters. 
+The Builder pattern separates the construction of a complex object from its representation, 
+allowing the same construction process to create different representations.
+
+Instead of passing dozens of parameters in a constructor (which makes it messy), you use a builder that provides methods to set parts and then 
+Build() to create the object.
 
 The typical components of the Builder pattern include:
 
@@ -16,3 +20,23 @@ Director: Coordinates the construction process by using a Builder object. It kno
 
 Client: Initiates the construction of the product through the Director. (Call)
 
+### Actors involved in the Builder pattern:
+Producr: your complex object that you want to build.
+AbstractBuilder: an interface that declares the methods for building the product.
+ConcreteBuilder: a class(s) that implements the AbstractBuilder interface and provides the actual implementation for building the product.
+Director/Client: a class that uses the AbstractBuilder to construct the product step by step.
+
+### When to use
+- When you want to construct a complex object step by step.
+- When the construction process must allow different representations for the object that is constructed.
+- When you want to avoid a telescoping constructor (a constructor with many parameters).
+- When you want to separate the construction of a complex object from its representation.
+
+### Example
+- Suppose you are building a complex object like a `Car` with many optional features like `GPS`, `Sunroof`, `Leather Seats`, etc.
+Instead of passing all these features as parameters to the `Car` constructor, you can use a `CarBuilder` that allows you to set 
+each feature step by step and then call `Build()` to create the `Car` object.
+- StringBuilder
+- .Append type chaining
+
+return this => fluent builder pattern

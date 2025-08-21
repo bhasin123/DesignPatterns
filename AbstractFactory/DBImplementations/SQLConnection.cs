@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory.DBImplementations
 {
-    internal class SQLHelper : IDBHelper
+    internal class SQLConnection : IDBConnection
     {
         public void CloseConnection()
         {
@@ -24,7 +24,7 @@ namespace AbstractFactory.DBImplementations
         }
     }
 
-    internal class SQLParameterHelper : IDBParameter
+    internal class SQLParameters : IDBParameter
     {
         public void AddParameters()
         {

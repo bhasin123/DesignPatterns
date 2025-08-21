@@ -9,14 +9,14 @@ namespace AbstractFactory.Factories
 {
     internal class OracleFactory : IDBFactory
     {
-        public IDBHelper GetDBHelper()
+        public IDBConnection GetDBConnection()
         {
-            return new OracleHelper();
+            return new OracleConnection();
         }
 
         public IDBParameter GetDBParameters()
         {
-            return new OracleParameterHelper();
+            return new OracleParameters();
         }
     }
 }

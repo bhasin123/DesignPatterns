@@ -24,11 +24,11 @@ namespace AbstractFactory
 
                 if(factory != null)
                 {
-                    factory.GetDBHelper().OpenConnection();
+                    factory.GetDBConnection().OpenConnection();
                     factory.GetDBParameters().AddParameters();
-                    factory.GetDBHelper().ExecuteCommand();
+                    factory.GetDBConnection().ExecuteCommand();
                     factory.GetDBParameters().GetParameters();
-                    factory.GetDBHelper().CloseConnection();
+                    factory.GetDBConnection().CloseConnection();
                 }
                 else
                 {

@@ -9,7 +9,7 @@ namespace BuilderPattern
             Console.WriteLine("This is old fashioned way.");
             OldWay();
 
-            Console.WriteLine("This is old fashioned way.");
+            Console.WriteLine("This is Builder way.");
             NewWay();
 
             Console.ReadKey();
@@ -20,8 +20,8 @@ namespace BuilderPattern
         private static void NewWay()
         {
             var builder = new HTMLBuilder("ul");
-            builder.Addchild("li", "Hello");
-            builder.Addchild("li", "World");
+            builder.Addchild("li", "Hello")
+                   .Addchild("li", "World");
 
             Console.WriteLine(builder.ToString());
 

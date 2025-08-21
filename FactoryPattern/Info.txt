@@ -1,11 +1,17 @@
 ﻿It is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created. 
-Instead of creating factories directly , the client asks the factory method to create objects for it.
+Instead of creating objects directly , the client asks the factory method to create objects for it.
 It encapsultes the object creation logic and allows the client to use the same code to create different objects.
 
 The factory method pattern is used when:
 1. A class can't anticipate the class of objects it must create.
 2. A class wants its subclasses to specify the objects it creates.
 3. Classes delegate responsibility to one of several helper subclasses, and you want to localize the knowledge of which helper subclass is the delegate.
+
+This is useful when:
+
+1. You want to centralize object creation.
+2. You need to decide which class to create at runtime.
+3. You want to avoid tightly coupling your code to specific concrete classes
 
 create interface, define common methods which all products should implement. 
 create concrete classes which implement the interface.
@@ -18,4 +24,4 @@ or
 create static factory method which returns the object of the concrete class. 
 
 
-
+Static class(Factory) and static Method(To get objects)

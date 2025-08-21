@@ -9,14 +9,14 @@ namespace AbstractFactory.Factories
 {
     internal class SQLFactory : IDBFactory
     {
-        public IDBHelper GetDBHelper()
+        public IDBConnection GetDBConnection()
         {
-            return new SQLHelper();
+            return new SQLConnection();
         }
 
         public IDBParameter GetDBParameters()
         {
-            return new SQLParameterHelper();
+            return new SQLParameters();
         }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
-    internal interface IDBHelper
+    internal interface IDBConnection
     {
         void OpenConnection();
         void CloseConnection();

@@ -42,8 +42,11 @@ namespace SingletonPattern
 
         public void Increment()
         {
-            Count++;
-            Console.WriteLine($"Count is now {Count}, ThreadId - {Thread.CurrentThread.ManagedThreadId}");
+            lock (lockObj)
+            {
+                Count++;
+                Console.WriteLine($"Count is now {Count}, ThreadId - {Thread.CurrentThread.ManagedThreadId}");
+            }
         }
 
     }

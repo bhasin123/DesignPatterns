@@ -9,14 +9,14 @@ namespace AbstractFactory.Factories
 {
     internal class CassandraFactory : IDBFactory
     {
-        public IDBHelper GetDBHelper()
+        public IDBConnection GetDBConnection()
         {
-            return new CassandraHelper();
+            return new CassandraConnection();
         }
 
         public IDBParameter GetDBParameters()
         {
-            return new CassandraParameterHelper();
+            return new CassandraParameters();
         }
     }
 }

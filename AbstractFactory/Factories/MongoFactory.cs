@@ -9,14 +9,14 @@ namespace AbstractFactory.Factories
 {
     internal class MongoFactory : IDBFactory
     {
-        public IDBHelper GetDBHelper()
+        public IDBConnection GetDBConnection()
         {
-            return new MongoHelper();
+            return new MongoConnection();
         }
 
         public IDBParameter GetDBParameters()
         {
-            return new MongoParameterHelper();
+            return new MongoParameters();
         }
     }
 }

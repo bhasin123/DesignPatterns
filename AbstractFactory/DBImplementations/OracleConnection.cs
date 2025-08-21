@@ -6,34 +6,34 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory.DBImplementations
 {
-    internal class PostgreSQLHelper : IDBHelper
+    internal class OracleConnection : IDBConnection
     {
         public void CloseConnection()
         {
-            Console.WriteLine("PostgreSQL Connection Closed");
+            Console.WriteLine("Oracle Connection Closed");
         }
 
         public void ExecuteCommand()
         {
-            Console.WriteLine("PostgreSQL Command Executed");
+            Console.WriteLine("Oracle Command Executed");
         }
 
         public void OpenConnection()
         {
-            Console.WriteLine("PostgreSQL Connection Opened");
+            Console.WriteLine("Oracle Connection Opened");
         }
     }
 
-    internal class PostgreSQLParameterHelper : IDBParameter
+    internal class OracleParameters : IDBParameter
     {
         public void AddParameters()
         {
-            Console.WriteLine("PostgreSQL Parameters Added");
+            Console.WriteLine("Oracle Parameters Added");
         }
 
         public void GetParameters()
         {
-            Console.WriteLine("PostgreSQL Parameters Fetched");
+            Console.WriteLine("Oracle Parameters Fetched");
         }
     }
 }
